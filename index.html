@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orbit downloads</title>
+<style>
+  body { font: 16px/1.5 system-ui, sans-serif; max-width: 36rem; margin: 2rem auto; padding: 0 16px; }
+  a.button { display: inline-block; padding: .75rem 1.25rem; border-radius: 999px; background: #2e5bff; color: #fff; text-decoration: none; }
+  code { word-break: break-all; }
+</style>
+</head>
+<body>
+<h1>Orbit</h1>
+<p id="latest">Latest release: see <a href="update.json">update.json</a>.</p>
+<p>Once installed, Orbit checks for updates itself.</p>
+<script>
+  fetch("update.json", { cache: "no-store" }).then(r => r.json()).then(u => {
+    const base = new URL(".", location.href).href;
+    if (typeof u.apkUrl !== "string" || !u.apkUrl.startsWith(base)) return;
+    const p = document.getElementById("latest");
+    p.textContent = "";
+    const a = document.createElement("a");
+    a.className = "button"; a.href = u.apkUrl;
+    a.textContent = "Download Orbit " + u.versionName;
+    const s = document.createElement("p");
+    s.innerHTML = "SHA-256: <code></code>";
+    s.querySelector("code").textContent = u.sha256;
+    p.append(a, s);
+  }).catch(() => {});
+</script>
+</body>
+</html>

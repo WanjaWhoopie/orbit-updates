@@ -1,0 +1,10 @@
+{
+  "versionCode": 2,
+  "versionName": "0.2.0",
+  "apkUrl": "https://wanjawhoopie.github.io/orbit-updates/orbit-0.2.0.apk",
+  "sha256": "5464e186d2c5d8944ce6899db8a6a1956cd6d9ea91c5e22efaa2bf946499b386",
+  "sizeBytes": 53455299,
+  "minSdk": 26,
+  "notes": "Orbit 0.2.0\n\nSMS senders now live on each account: rename, move, pause, or correct their\nlearned formats without leaving the account screen.\n\nBalance checks: when a message's balance disagrees with Orbit's total, the\ngap is listed with both figures and can be filled in one tap.\n\nIn-app updates: Orbit checks for a newer signed release and installs it from\nSettings > About.\n\nAlso: per-account colours and icons, receipt-style items, Inbox Sync and Clear,\na lighter Home feed, and 5-digit PINs.",
+  "publishedAt": "2026-11-10T13:28:20Z"
+}

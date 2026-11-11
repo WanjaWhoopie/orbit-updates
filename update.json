@@ -1,10 +1,10 @@
 {
-  "versionCode": 2,
-  "versionName": "0.2.0",
-  "apkUrl": "https://wanjawhoopie.github.io/orbit-updates/orbit-0.2.0.apk",
-  "sha256": "5464e186d2c5d8944ce6899db8a6a1956cd6d9ea91c5e22efaa2bf946499b386",
+  "versionCode": 3,
+  "versionName": "0.2.1",
+  "apkUrl": "https://wanjawhoopie.github.io/orbit-updates/orbit-0.2.1.apk",
+  "sha256": "78aaad929ab35b0e889903db5a4526b603c58e895b8edcd96211d72fc9f10af4",
   "sizeBytes": 53455299,
   "minSdk": 26,
-  "notes": "Orbit 0.2.0\n\nSMS senders now live on each account: rename, move, pause, or correct their\nlearned formats without leaving the account screen.\n\nBalance checks: when a message's balance disagrees with Orbit's total, the\ngap is listed with both figures and can be filled in one tap.\n\nIn-app updates: Orbit checks for a newer signed release and installs it from\nSettings > About.\n\nAlso: per-account colours and icons, receipt-style items, Inbox Sync and Clear,\na lighter Home feed, and 5-digit PINs.",
-  "publishedAt": "2026-11-10T13:28:20Z"
+  "notes": "Orbit 0.2.1\n\nMore messages are read automatically: airtime and data bundles bought on MTN,\nmoney received on M-PESA, and Fuliza advances and repayments.\n\nTwo fixes where messages were quietly losing data. A sender's name no longer\nswallows the masked phone number it arrived with, and a Fuliza repayment is no\nlonger mistaken for a limit notice and dropped.",
+  "publishedAt": "2026-11-11T11:13:09Z"
 }

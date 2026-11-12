@@ -1,10 +1,10 @@
 {
-  "versionCode": 3,
-  "versionName": "0.2.1",
-  "apkUrl": "https://wanjawhoopie.github.io/orbit-updates/orbit-0.2.1.apk",
-  "sha256": "78aaad929ab35b0e889903db5a4526b603c58e895b8edcd96211d72fc9f10af4",
-  "sizeBytes": 53455299,
+  "versionCode": 4,
+  "versionName": "0.2.2",
+  "apkUrl": "https://wanjawhoopie.github.io/orbit-updates/orbit-0.2.2.apk",
+  "sha256": "12be79cf7e73bc1c0d7fea65d51a2bd8d729653e4d61415e91f18789ad180480",
+  "sizeBytes": 53488067,
   "minSdk": 26,
-  "notes": "Orbit 0.2.1\n\nMore messages are read automatically: airtime and data bundles bought on MTN,\nmoney received on M-PESA, and Fuliza advances and repayments.\n\nTwo fixes where messages were quietly losing data. A sender's name no longer\nswallows the masked phone number it arrived with, and a Fuliza repayment is no\nlonger mistaken for a limit notice and dropped.",
-  "publishedAt": "2026-11-11T11:13:09Z"
+  "notes": "Orbit 0.2.2\n\nInbox: swipe a held message left to dismiss it, or hold one to start picking and clear several with the bin. Either way you get a few seconds to undo, which nothing else offers once a message is dismissed.\n\nSettings: import a CSV Orbit exported, so a new phone starts with your history instead of an empty ledger. Anything already here is recognised and skipped, so importing the same file twice changes nothing.",
+  "publishedAt": "2026-11-12T07:46:04Z"
 }
